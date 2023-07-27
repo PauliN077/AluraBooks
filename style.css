@@ -91,9 +91,36 @@ align-items: center;
 
 .banner-titulo{
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
+    padding: 3px;
 }
 
 .banner-texto{
     font-weight: 500;
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+    padding: 5px;
+}
+.pesquisa{
+    background-color: transparent;
+    border: 5px solid var(--branco);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    background: url("./img/lupa.svg")no-repeat;
+    background-position: 1em;
+    font-size: 30px;
+}
+
+.carrosel_titulo{
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1em 0 0 .5em 0;
 }
