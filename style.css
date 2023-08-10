@@ -128,3 +128,26 @@ align-items: center;
 .swiper-slide img{
     width: 50%;
 }
+
+.card-descriçao{
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+}
+
+.card{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 80%;
+  
+}
+
