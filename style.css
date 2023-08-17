@@ -127,6 +127,7 @@ align-items: center;
 
 .swiper-slide img{
     width: 50%;
+    padding: 10px 55px; 
 }
 
 .card-descriçao{
@@ -147,7 +148,34 @@ align-items: center;
 .card{
     background: #FFFFFF;
     border-radius: 20px;
-    width: 80%;
+    margin: 2em;
+    padding: 2em;
   
+}
+
+.botoes-item{
+    padding: 1em;
+}
+
+.titulo-mais-vendidos{
+font-size: 30px;
+color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+padding: 1em 0 0 .5em 0;
+}
+
+.descriçao-texto{
+    color: #002F52;
+}
+
+.descriçao-titulo{
+    color: #EB9B00;
+}
+
+.descriçao-final{
+    font-weight: 400;
 }
 
