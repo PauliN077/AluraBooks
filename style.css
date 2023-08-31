@@ -179,3 +179,24 @@ padding: 1em 0 0 .5em 0;
     font-weight: 400;
 }
 
+.botoes-ancora{
+    background-color: #EB9B00;
+    padding: 1em 1em;
+    color: #EBECEE;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 1em;
+   height: 24px;
+
+}
+
+.topicos{
+    background-color: #002F52;
+    text-align: center;
+}
+
+.Titulo-topicos{
+    color: #EBECEE;
+    font-size: 500;
+    font-size: 20px;
+}
