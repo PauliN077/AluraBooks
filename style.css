@@ -214,3 +214,43 @@ flex-wrap: wrap;
     background-color: #EB9B00;
     border-radius: 1em;
 }
+
+.contato-email{
+    background-color: transparent;
+    border: 5px solid var(#002F52);
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 1em 1em;
+    width: 30%;
+    text-align:center;
+    background-position: 1em;
+    right: 1em;
+    
+}
+.rodape{
+    background-color:#FFFFFF;
+    padding: 1em;
+}
+
+.contato-titulo{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.contato-texto{
+   font-size: 1em;
+   font-weight: 300;
+}
+
+.contato-email::placeholder{
+    font-family:var(--fonte-principal);
+    color: #002F52;
+    background: url("./img/email.svg")no-repeat;
+
+}
+
+.contato-e{
+    text-align: center;
+    margin: auto;
+    background-position: 0;
+}
