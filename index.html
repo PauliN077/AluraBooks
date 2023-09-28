@@ -1,212 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viemport" content="width-device-width" initial-scale="1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="1reset.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura MIDI</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
 
-        <header class="cabeçalho">
+    <h1>Alura Midi</h1>
 
-            <div class="container">
-             <input type="checkbox" id="menu" class="container-botao">
-             <label for="menu">
-             <span class="cabeçalho_menu_hamburguer container-imagem"></span>
-             </label>
+    <section class="teclado">
+        <button class="tecla tecla_pom">Pom</button>
+        <button class="tecla tecla_clap">Clap</button>
+        <button class="tecla tecla_tim">Tim</button>
 
-             <ul class="lista-menu">
-                <li class="lista-menu_titulo">Categorias</li>
+        <button class="tecla tecla_puff">Puff</button>
+        <button class="tecla tecla_splash">Splash</button>
+        <button class="tecla tecla_toim">Toim</button>
 
-                <li class="lista-menu_item">
-                <a href="#" class="lista-menu_link">Programação</a>
-                </li>
-
-                <li class="lista-menu_item">
-                <a href="#" class="lista-menu_link">Front-end</a>
-                </li>
-
-                <li class="lista-menu_item">
-                <a href="#" class="lista-menu_link">Infraestrutura</a>
-                </li>
-
-                <li class="lista-menu_item">
-                <a href="#" class="lista-menu_link">Business</a>
-                </li>
-            
-                <li class="lista-menu_item">
-                <a href="#" class="lista-menu_link">Design & UX</a>
-                </li>
-            </ul>
-
-         <img class="container-imagem" src="./img/Polygon 1 (Stroke).svg">
-        </div>
-         <div class="container">
-        <img class="container-imagem" src="./img/Favoritos.svg">
-          <img class="container-imagem" src="./img/Compras.svg">
-         <img class="container-imagem" src="./img/Usuario.svg">
-
-      
-        </div>
-        </header>
-        
-        <section class="banner">
-        <h2 class="banner-titulo"> Já sabe por onde começar? </h2>  
-        <p class="banner-texto"> Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="search" class="pesquisa" placeholder="Qual será sua próxima leitura?">
-        
-        
-        </section>
-        <section class="carrossel">
-        <h2 class="carrosel_titulo">Novos lançamentos</h2>
-
-        <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="./img/1.svg"></div>
-      <div class="swiper-slide"><img src="./img/2.svg"></div>
-      <div class="swiper-slide"><img src="./img/3.svg"></div>
-      <div class="swiper-slide"><img src="./img/4.svg"></div> 
-      <div class="swiper-slide"><img src="./img/5.svg"></div>
-      <div class="swiper-slide"><img src="./img/1.svg"></div>
-      <div class="swiper-slide"><img src="./img/2.svg"></div>
-      <div class="swiper-slide"><img src="./img/3.svg"></div>
-      <div class="swiper-slide"><img src="./img/4.svg"></div>
-      <div class="swiper-slide"><img src="./img/5.svg"></div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-
-
-<div class="card">
-  <div class="card-descriçao">
-    <div class="descriçao">
-<h3 class="descriçao-titulo">Talvez você também se interesse por...</h3>
-<h2 class="descriçao-texto">Angular 11 e Firebase</h2>
-<p class="descriçao-final">Construindo uma aplicação integrada com a plataforma do Google.</p>
-    </div>
-    
-    <img class="descriçao-imagem" src="./img/A.svg">
-  </div>
-
-  <div class="card-botoes">
-    <ul class="botoes">
-        <lo><img class="botoes-item" src="./img/Favoritos.svg"></lo>
-        <lo><img class="botoes-item" src="./img/Compras.svg"></lo>
-
-    </ul>
-    <a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?type=design&node-id=113-4103&mode=design&t=AIR9l0NPknJ8jp54-0" class="botoes-ancora">Saiba Mais</a>
-  
-</div>
-
-</div>
-
-
-        </section>
-        
-        <section class="mais-vendidos">
-        <h2 class="titulo-mais-vendidos">MAIS VENDIDOS</h2>
- <!-- Slider main container -->
- <div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide"><img src="./img/wolwe.jpg"></div>
-    <div class="swiper-slide"><img src="./img/pantera.jpg"></div>
-    <div class="swiper-slide"><img src="./img/novos.jpg"></div>
-    <div class="swiper-slide"><img src="./img/guerra.jpg"></div> 
-    <div class="swiper-slide"><img src="./img/capitao.jpg"></div>
-    <div class="swiper-slide"><img src="./img/piada.jpg"></div>
-    <div class="swiper-slide"><img src="./img/batman.jpg"></div>
-    <div class="swiper-slide"><img src="./img/blade.jpg"></div>
-    <div class="swiper-slide"><img src="./img/venom.jpg"></div>
-    <div class="swiper-slide"><img src="./img/alerquina.jpg"></div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
-      
-<div class="card">
-  <div class="card-descriçao">
-    <div class="descriçao">
-      <h3><img class="estrela" src="./img/Estrelinhas.jpg"></h3>
-<h3 class="descriçao-titulo">Autora do mês</h3>
-<h2 class="descriçao-texto">Juliana Agarikov</h2>
-<p class="descriçao-final">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-    </div>
-    <img class="descriçao-imagem" src="./img/mulher.jpg">
-  </div>
-
-  <div class="card-botoes">
-    <ul class="botoes">
-        <lo><img class="botoes-item" src="./img/Favoritos.svg"></lo>
-        <lo><img class="botoes-item" src="./img/Compras.svg"></lo>
-
-    </ul>
-    <a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?type=design&node-id=113-4103&mode=design&t=AIR9l0NPknJ8jp54-0" class="botoes-ancora">Saiba Mais</a>
-  
-</div>
-
-        </section>
-
-        <section class="topicos">
-          <h2 class="Titulo-topicos">Tópicos visitados recentemente</h2>
-          <ul class="Topicos-lista">
-
-            <lo> <a href="#" class="topicos-link">Android</a></li>
-            <lo> <a href="#" class="topicos-link">00</a></li>
-            <lo> <a href="#" class="topicos-link">Marketing Digital</a></li>
-            <lo> <a href="#" class="topicos-link">Agile</a></li>
-            <lo> <a href="#" class="topicos-link">Startups</a></li>
-            <lo> <a href="#" class="topicos-link">HTML & CSS</a></li>
-            <lo> <a href="#" class="topicos-link">Java</a></li>
-            <lo> <a href="#" class="topicos-link">Python</a></li>
-
-          </ul>
-        </section>
-
-        <section class="rodape">
-          <div>
-      <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
-      <h3 class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</h3>
-          </div>
-
-          <div class="contato-e">
-      <input type="email" placeholder="Cadastre seu e-mail" 
-      class="contato-email">
-          </div>
-      
-    
-    
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
     </section>
 
+    <audio controls src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio controls src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio controls src="sounds/keye.wav" id="som_tecla_tim"></audio>
+    <audio controls src="sounds/keya.wav" id="som_tecla_puff"></audio>
+    <audio controls src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio controls src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio controls src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio controls src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+    <audio controls src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+    <audio controls src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio controls src="sounds/keyc.wav" id="som_tecla_tom"></audio>
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-       <script>const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,
-        slidesPerView: 4,
-        pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',},});
-      </script>
-
-        </body>
+</body>
 </html>
